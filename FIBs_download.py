@@ -1,5 +1,3 @@
-#!pip install imagecodecs -q
-
 import os
 import zipfile
 import numpy as np
@@ -254,5 +252,3 @@ def get_data(output='2D', output_dir='./data/', cube_size=456, overlap_fraction=
   print(f'Выход: список {len(NPY_files)} файлов .npy ')
 
   return NPY_files
-
-#npylist = get_data(output='2D', to_archive=True)
